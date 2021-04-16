@@ -11,14 +11,19 @@
     <main>
          <div class="contenedor">
             <div class="caja_trasera">
+
                <div class="caja_trasera_login">
-                 <h3>Restablece tu Contraseña?</h3>
-                 <p>Envia tu solicitud</p>
-                 <button id="btn_restablecer">Restablecer</button>
+                 <h3>Ya tienes una cuenta?</h3>
+                 <p>Inicia Secion para entrar a la Pagina</p>
+                 <button id="btn_Iniciar_Secion">Iniciar Secion</button>
                </div>
-               
-            </div>
-           <div class="contenedor_login">
+                <div class="caja_trasera_register">
+                 <h3>No tienes una cuenta Aun?</h3>
+                 <p>Registrate para iniciar Secion</p>
+                 <button id="btn_Registrarse">Registrarse</button>
+               </div>
+             </div>    
+               <div class="contenedor_login">
              <form action="" class="form_login">
                <h2>Iniciar Sesion</h2>
                <input type="text" placeholder="Usuario">
@@ -26,9 +31,20 @@
                <input type="codigo" placeholder="Codigo de Seguridad">
                <button>Ingresar</button>
              </form>
+             <form action="" class="form_register">
+              <h2>Registrarse</h2>
+              <input type="text" placeholder="nombre completo">
+              <input type="text" placeholder="correo">
+              <input type="text" placeholder="Usuario">
+              <input type="password" placeholder="Contraseña">
+            
+              <button>Registrarse</button>
+            </form>
+
             </div> 
 
-        </div>
+          </div> 
     </main>
+    <script src="../js/script.js"></script>
 </body>
 </html>
