@@ -1,0 +1,137 @@
+* {
+	padding: 0;
+	margin: 0;
+	box-sizing: border-box;
+}
+.img{
+    width: 50px;
+   	  }
+body {
+	font-family: 'Open Sans', sans-serif;
+}
+
+a {
+	text-decoration: none;
+	color: rgb(32, 104, 128);
+    font-weight: 600;
+    font-size: 16px;
+   
+}
+
+.contenedor {
+	width: 100%;
+	min-height: 100vh;
+	margin: 0 auto;
+	display: grid;
+	grid-template-columns: 300px auto;
+    grid-template-rows: 80px auto;
+    grid-template-areas: "header header"
+                         "menu contenido";
+    transition: all .3s ease ;
+                         
+ 	}
+     
+.header {
+    grid-area: header;
+    backdrop-filter: blur (10px);
+    background-color: rgba(126, 191, 193, 0.401);
+    padding: 0 20px;
+	display: grid;
+	grid-template-columns: auto 1fr auto;
+	align-items: center;
+	justify-content: space-between;
+	grid-gap: 20px;
+	grid-template-areas: "logo busqueda iconos";
+    	
+}
+.header .contenedor-logo {
+	grid-area: logo;
+	display: flex;
+	align-items: center;
+}
+.header .contenedor_logo .logo {
+	font-size: 20px;
+	position: relative;
+	top: 2px;
+    
+}
+
+.header .botones-header {
+	grid-area: iconos;
+	display: flex;
+	align-items: center;
+}
+
+.header .botones-header button {
+	background: none;
+	border: none;
+	width: 40px;
+	height: 40px;
+	font-size: 18px;
+	padding: 7px 12px;
+	border-radius: 100px;
+	color: #828282;
+	margin-right: 20px;
+	cursor: pointer;
+}
+
+.header .botones-header button:hover {
+	background: #e7e7e7;
+}
+
+.header .botones-header .avatar {
+	width: 30px;
+	height: 30px;
+	display: inline-block;
+}
+
+.header .botones-header .avatar img {
+	vertical-align: top;
+	width: 100%;
+	border-radius: 100px;
+}
+
+
+
+.menu_lateral {
+	grid-area: menu;
+	background: #fff;
+	overflow: hidden;
+}
+
+.menu_lateral a {
+	display: block;
+	padding: 7px 25px;
+	color: #000;
+	min-width: 40px;
+}
+
+.menu_lateral a:hover {
+	background: #e5e5e5;
+}
+
+.menu_lateral a.active {
+    background-color: rgba(173, 211, 213, 0.401);
+	font-weight: bold;
+}
+
+.menu_lateral .fas {
+	color: #606060;
+	margin-right: 25px;
+	width: 15px;
+	text-align: center;
+}
+
+.menu_lateral a.active .fas {
+	color: #01A1B4;
+}
+
+.menu_lateral hr {
+	margin: 20px 0;
+	border: 1px solid #dfdfdf;
+}
+.main {
+    grid-area: contenido;
+	background-color: #fff;
+}
+
