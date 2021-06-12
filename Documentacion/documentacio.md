@@ -2,5 +2,6 @@
 ## Introduccion
 ## Funcionalidades Principales
 ## Casos de Uso
-![ caso de uso del sistema] (caso.jpg)
+![ caso de uso del sistema](caso.jpg)
+## Maqueta
 
