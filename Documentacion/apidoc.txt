@@ -1,0 +1,61 @@
+
+//usuario
+GET http://localhost/proy_reservas_medicas/controlers/Usuario.php?
+
+//usuario
+GET http://localhost/proy_reservas_medicas/controlers/usuario.php?id=:id
+POST http://localhost/proy_reservas_medicas/controlers/usuario.php?
+PUT http://localhost/proy_reservas_medicas/controlers/usuario.php?id=:id
+PATCH http://localhost/proy_reservas_medicas/controlers/usuario.php?id&campo=:campo
+DELETE http://localhost/proy_reservas_medicas/controlers/usuario.php?id=:id
+POST http://localhost/proy_reservas_medicas/controlers/usuario.php?metodo=login
+POST http://localhost/proy_reservas_medicas/controlers/usuario.php?metodo=logout
+
+//reserva
+GET http://localhost/proy_reservas_medicas/controlers/reserva.php?id=:id
+POST http://localhost/proy_reservas_medicas/controlers/reserva.php?
+PUT http://localhost/proy_reservas_medicas/controlers/reserva.php?id=:id
+PATCH http://localhost/proy_reservas_medicas/controlers/reserva.php?id&campo=:campo
+DELETE http://localhost/proy_reservas_medicas/controlers/reserva.php?id=:id
+POST http://localhost/proy_reservas_medicas/controlers/reserva.php?
+
+//asegurado
+GET http://localhost/proy_reservas_medicas/controlers/asegurado.php?id=:id
+POST http://localhost/proy_reservas_medicas/controlers/segurado.php?
+PUT http://localhost/proy_reservas_medicas/controlers/asegurado.php?id=:id
+PATCH http://localhost/proy_reservas_medicas/controlers/asegurado.php?id&campo=:campo
+DELETE http://localhost/proy_reservas_medicas/controlers/asegurado.php?id=:id
+POST http://localhost/proy_reservas_medicas/controlers/asegurado.php?
+
+//empresa
+GET http://localhost/proy_reservas_medicas/controlers/empresa.php?id=:id
+POST http://localhost/proy_reservas_medicas/controlers/empresa.php?
+PUT http://localhost/proy_reservas_medicas/controlers/empresa.php?id=:id
+PATCH http://localhost/proy_reservas_medicas/controlers/empresa.php?id&campo=:campo
+DELETE http://localhost/proy_reservas_medicas/controlers/empresa.php?id=:id
+POST http://localhost/proy_reservas_medicas/controlers/empresa.php?
+
+
+//medico
+GET http://localhost/proy_reservas_medicas/controlers/medico.php?id=:id
+POST http://localhost/proy_reservas_medicas/controlers/medico.php?
+PUT http://localhost/proy_reservas_medicas/controlers/medico.php?id=:id
+PATCH http://localhost/proy_reservas_medicas/controlers/medico.php?id&campo=:campo
+DELETE http://localhost/proy_reservas_medicas/controlers/medico.php?id=:id
+POST http://localhost/proy_reservas_medicas/controlers/medico.php?
+
+//consultorio
+GET http://localhost/proy_reservas_medicas/controlers/consultorio.php?id=:id
+POST http://localhost/proy_reservas_medicas/controlers/consultorio.php?
+PUT http://localhost/proy_reservas_medicas/controlers/consultorio.php?id=:id
+PATCH http://localhost/proy_reservas_medicas/controlers/consultorio.php?id&campo=:campo
+DELETE http://localhost/proy_reservas_medicas/controlers/consultorio.php?id=:id
+POST http://localhost/proy_reservas_medicas/controlers/consultorio.php?
+
+//horario
+GET http://localhost/proy_reservas_medicas/controlers/horario.php?id=:id
+POST http://localhost/proy_reservas_medicas/controlers/horario.php?
+PUT http://localhost/proy_reservas_medicas/controlers/horario.php?id=:id
+PATCH http://localhost/proy_reservas_medicas/controlers/horario.php?id&campo=:campo
+DELETE http://localhost/proy_reservas_medicas/controlers/horario.php?id=:id
+POST http://localhost/proy_reservas_medicas/controlers/hoario.php?
