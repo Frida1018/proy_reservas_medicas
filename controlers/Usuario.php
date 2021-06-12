@@ -1,5 +1,5 @@
 <?php
-    include_once('./conexion.php');
+    include_once('../config/conexion.php');
     class Usuario{
 
         private $nombre_completo;
@@ -11,7 +11,7 @@
         function Usuario(){
             $this->nombre_completo = "";
             $this->correo_electronico = "";
-            $this->Usuario = "";
+            $this->usuario = "";
             $this->contrasena = "";
             $conn = new Conexion();
             $resultado=$conn->getCnx()->query("SHOW TABLES LIKE'usuario");
@@ -19,14 +19,14 @@
         }
                   
          function setnombre($nombre_completo){
-             $this->nombre = $nombre_completo;
+             $this->nombre_completo = $nombre_completo;
        
          }
          function getnombre(){
              return $this->nombre_completo;
          }
          function setcorreo($correo_electronico){
-            $this->correo = $correo_electronico;
+            $this->correo_electronico = $correo_electronico;
       
         }
         function getcorreo(){
@@ -49,7 +49,7 @@
         function obtUsuario(){
             echo "Lista usuarios..";
             $conn = new Conexion();
-            $q = "SELECT id, nombre_completo, usuario, password FROM usuario;";
+            $q = "SELECT id, nombre_completo, correo_electronico, usuario, contrasena  password FROM usuario;";
             echo $q;
             $consulta = $conn->getCnx()->prepare($q);
             $consulta->execute();

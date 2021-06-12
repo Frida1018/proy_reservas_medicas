@@ -28,7 +28,7 @@
           </div>
         </div>
         <div class="contenedor_login">
-          <form action="principal.html" class="form_login">
+          <form action="principal.php" class="form_login">
             <h2>CAJA NACIONAL DE SALUD</h2>
             <input type="text" placeholder="Usuario"  class="validate" required pattern="[a-z]{6}"/>
             <input type="password" placeholder="Contraseña" class="validate" required />

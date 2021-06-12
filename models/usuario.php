@@ -1,6 +1,6 @@
 <?php
     header('Content-type: application/json');
-    include_once('./config/Usuario.php');
+    include_once('./controlers/Usuario.php');
       $u = new Usuario();
     switch($_SERVER["REQUEST_METHOD"]){
         case 'GET':
