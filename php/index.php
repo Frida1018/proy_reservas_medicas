@@ -35,7 +35,7 @@
             <input type="codigo" placeholder="Codigo de Seguridad" class="validate" required/>
             <button type="submit" onclick="login()">Ingresar</button>
           </form>
-          <form action="" class="form_register">
+          <form action=""  class="form_register">
             <h2>Registrarse</h2>
             <input type="text" placeholder="nombre completo" />
             <input type="text" placeholder="correo" />

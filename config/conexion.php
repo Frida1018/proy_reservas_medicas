@@ -36,4 +36,4 @@ class Conexion {
 }
 
 $conn = new Conexion();
-var_dump($conn->getCnx());
+//var_dump($conn->getCnx());
